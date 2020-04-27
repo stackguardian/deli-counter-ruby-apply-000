@@ -25,3 +25,14 @@ def now_serving(katz_deli)
   puts "Currently serving #{katz_deli.shift}."
 end
 end
+
+def ticketwheel(katz_deli)
+  counter == 0 
+  puts "You're ticket number is #{} "
+  counter += 1 
+end
+
+ticketwheel
+ticketwheel
+ticketwheel
+  
