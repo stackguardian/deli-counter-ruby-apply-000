@@ -29,7 +29,7 @@ end
 $counter = 0
 def ticketwheel
   $counter += 1
-  puts "You're ticket number is #{counter} "
+  puts "You're ticket number is #{$counter} "
 end
 
 ticketwheel
