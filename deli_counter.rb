@@ -27,7 +27,7 @@ end
 end
 
 def ticketwheel
-  counter == 0 
+  counter = 0 
   puts "You're ticket number is #{} "
   counter += 1 
 end
