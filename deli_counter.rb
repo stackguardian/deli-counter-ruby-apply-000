@@ -26,9 +26,9 @@ def now_serving(katz_deli)
 end
 end
 
-counter = 0
+$counter = 0
 def ticketwheel
-  counter += 1
+  $counter += 1
   puts "You're ticket number is #{counter} "
 end
 
