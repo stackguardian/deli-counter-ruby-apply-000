@@ -26,7 +26,7 @@ def now_serving(katz_deli)
 end
 end
 
-def ticketwheel(katz_deli)
+def ticketwheel
   counter == 0 
   puts "You're ticket number is #{} "
   counter += 1 
